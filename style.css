@@ -1,0 +1,42 @@
+/* Global */
+:root {
+    /* color */
+    --color-white: #ffffff;
+    --color-light-white: #eeeeee;
+    --color-dark-white: #d1d1d1;
+    --color-grey: #616161;
+    --color-light-grey: #7c7979;
+    --color-dark-grey: #4d4d4d;
+    --color-black: #000000;
+    --color-black-a: rgba(0, 0, 0, 0.5);
+    --color-blue: #9accfa;
+    --color-nav: #000049;
+
+    /* Font size */
+    --font-big: 48px;
+    --font-large: 32px;
+    --font-medium: 24px;
+    --font-regular: 20px;
+    --font-small: 16px;
+    --font-micro: 14px;
+
+    /* Font weight */
+    --weight-bold: 700;
+    --weight-semi-bold: 600;
+    --weight-regular: 400;
+    --weight-thin: 100;
+
+    /* Size */
+    --size-border-radius: 4px;
+
+    /* Animation */
+    --animation-duration: 300ms;
+}
+
+.App {
+    display: flex;
+}
+
+.map {
+    width: 100%;
+}
